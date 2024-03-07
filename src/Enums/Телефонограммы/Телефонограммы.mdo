@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3bb705c-53bd-44de-a136-30892aeaa8e0">
+  <producedTypes>
+    <refType typeId="46c23dc1-80af-4585-bea1-3b0aa46c33e6" valueTypeId="67e5bdde-e6a7-4e3d-9a4c-f01c0dcfb0fb"/>
+    <listType typeId="c2d6774d-5d4c-4ee7-a07a-f178cb56db11" valueTypeId="a4af4aa0-0e18-4646-8c04-20f48b36bb8a"/>
+    <managerType typeId="16a51a9e-d55d-4671-863d-69f1e0f7ff63" valueTypeId="fc1938e5-cc36-4179-8779-0d7d40f533b6"/>
+  </producedTypes>
+  <name>Телефонограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телефонограммы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8c5c261-b21b-4df0-9788-8189fdd7e0ff">
+    <name>Эпидбюро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центр гигиены и эпидемиологии (эпидбюро)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="826950e8-f49c-436e-bd47-c9926ea9cff4">
+    <name>КДН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия по делам несовершеннолетних и защите их прав</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ba8fb75-6cbe-4e2f-946c-691afd7e4351">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

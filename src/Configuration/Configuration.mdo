@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c30b93d-c637-4547-bce0-3ef1b46dd40f">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Общеобразовательная школа</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9bd14619-4f39-4b91-89d8-959499f9160a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8bbb3495-d816-40ab-8fb9-9bd3a7ef78c5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="72258beb-976d-4dde-95ca-31b9919ee17c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1a6d49ec-68dc-4c3a-9522-633bd2aff5f3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a5a0a223-c3f6-4817-9425-1e7cc94316c7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6cb43564-9280-445e-ac8e-b5945409b89f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="5fb84379-ac0f-4037-9ff7-b33b8bb15d84"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Администратор</defaultRoles>
+  <vendor>Крылов Никита Андреевич</vendor>
+  <version>R1.7</version>
+  <defaultDynamicListSettingsForm>CommonForm.ФормаНастроекДинамическогоСписка</defaultDynamicListSettingsForm>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Исключительные лицензионные права МАОУ &quot;СОШ № 1&quot;</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>Крылов Никита Андреевич</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="57755539-5bdc-471b-bd61-2f242f3da271">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Контингент</subsystems>
+  <subsystems>Subsystem.Делопроизводство</subsystems>
+  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.ДополнительноеОбразование</subsystems>
+  <commonPictures>CommonPicture.Лого</commonPictures>
+  <commonPictures>CommonPicture.Делопроизводство</commonPictures>
+  <commonPictures>CommonPicture.Кадры</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <roles>Role.Администратор</roles>
+  <commonTemplates>CommonTemplate.ЕГИССО</commonTemplates>
+  <commonTemplates>CommonTemplate.КарточкаРегистрацииТелефонограммы</commonTemplates>
+  <commonTemplates>CommonTemplate.КомпенсацияОдежда</commonTemplates>
+  <commonTemplates>CommonTemplate.КомпенсацияПроезд</commonTemplates>
+  <commonTemplates>CommonTemplate.Компонент_RegExp</commonTemplates>
+  <commonTemplates>CommonTemplate.НаправлениеТПМПК</commonTemplates>
+  <commonTemplates>CommonTemplate.ОтсутствиеАкадемическойЗадолжности</commonTemplates>
+  <commonTemplates>CommonTemplate.ПриказНовыйУчебныйГод</commonTemplates>
+  <commonTemplates>CommonTemplate.ПриказОбОкончанииОбучения11</commonTemplates>
+  <commonTemplates>CommonTemplate.ПриказОбОкончанииОбучения9</commonTemplates>
+  <commonTemplates>CommonTemplate.ПриказОбОтчислении</commonTemplates>
+  <commonTemplates>CommonTemplate.ПриказОЗачислении</commonTemplates>
+  <commonTemplates>CommonTemplate.ПриказОПереводе</commonTemplates>
+  <commonTemplates>CommonTemplate.ПФР_Налоговая_СоцВыплаты</commonTemplates>
+  <commonTemplates>CommonTemplate.СправкаВоенкомат</commonTemplates>
+  <commonTemplates>CommonTemplate.Трудоустройство</commonTemplates>
+  <commonTemplates>CommonTemplate.УведомлениеОЗачислении</commonTemplates>
+  <commonTemplates>CommonTemplate.УведомлениеПДн</commonTemplates>
+  <commonTemplates>CommonTemplate.УниверсальнаяСправка</commonTemplates>
+  <commonModules>CommonModule.РаботаСПечатью</commonModules>
+  <commonModules>CommonModule.ОбщиеУтилиты</commonModules>
+  <constants>Constant.ИНН_Организации</constants>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.РуководительОрганизации</constants>
+  <commonForms>CommonForm.ДанныеОрганизации</commonForms>
+  <commonForms>CommonForm.ФормаНастроекДинамическогоСписка</commonForms>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.ЕГИССО_ДанныеКатегорий</catalogs>
+  <catalogs>Catalog.Категории</catalogs>
+  <catalogs>Catalog.Классы</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Обучающиеся</catalogs>
+  <catalogs>Catalog.Основания</catalogs>
+  <catalogs>Catalog.Родители</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.УчебныеГода</catalogs>
+  <catalogs>Catalog.ШтатноеРасписание</catalogs>
+  <catalogs>Catalog.ПрограммыДополнительногоОбразования</catalogs>
+  <documents>Document.ДвижениеОбучающихся</documents>
+  <documents>Document.ЕГИССО</documents>
+  <documents>Document.КомпенсацияОдежда</documents>
+  <documents>Document.КомпенсацияПроезд</documents>
+  <documents>Document.НаправлениеТПМПК</documents>
+  <documents>Document.ОтсутствиеАкадемическойЗадолжности</documents>
+  <documents>Document.ПодтверждениеОПриемеВШколу</documents>
+  <documents>Document.Проездной</documents>
+  <documents>Document.ПФР_Налоговая_СоцВыплаты</documents>
+  <documents>Document.СправкаВоенкомат</documents>
+  <documents>Document.Трудоустройство</documents>
+  <documents>Document.УведомлениеОЗачислении</documents>
+  <documents>Document.УниверсальнаяСправка</documents>
+  <documents>Document.ЖурналЗаявленийРодителей</documents>
+  <documents>Document.ЖурналЗаявленийСотрудников</documents>
+  <documents>Document.ЖурналВходящихДокументов</documents>
+  <documents>Document.Телефонограммы</documents>
+  <documentNumerators>DocumentNumerator.Движения</documentNumerators>
+  <documentNumerators>DocumentNumerator.Справки</documentNumerators>
+  <documentNumerators>DocumentNumerator.Договоры</documentNumerators>
+  <documentJournals>DocumentJournal.ЖурналВыдачиСправок</documentJournals>
+  <documentJournals>DocumentJournal.ЖурналЗаявленийРодителей</documentJournals>
+  <documentJournals>DocumentJournal.ЖурналЗаявленийСотрудников</documentJournals>
+  <documentJournals>DocumentJournal.ЖурналВходящихДокументов</documentJournals>
+  <documentJournals>DocumentJournal.Телефонограммы</documentJournals>
+  <enums>Enum.Документы</enums>
+  <enums>Enum.Параллели</enums>
+  <enums>Enum.ПереченьЛьгот</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.Родители</enums>
+  <enums>Enum.ТипыДвиженияОбучающегося</enums>
+  <enums>Enum.RecType</enums>
+  <enums>Enum.Gender_recip</enums>
+  <enums>Enum.usingSign</enums>
+  <enums>Enum.Телефонограммы</enums>
+  <enums>Enum.ПричиныТПМПК</enums>
+  <enums>Enum.НаправленностьПрограмм</enums>
+  <reports>Report.ПроизвольныйЗапрос</reports>
+  <reports>Report.Наполняемость</reports>
+  <reports>Report.СписокКласса</reports>
+  <reports>Report.Контингент</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДанных</dataProcessors>
+  <informationRegisters>InformationRegister.ДвиженияОбучающихся</informationRegisters>
+  <informationRegisters>InformationRegister.ЖурналЗаполненияЕГИССО</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыплатыЛьготникам</accumulationRegisters>
+</mdclass:Configuration>

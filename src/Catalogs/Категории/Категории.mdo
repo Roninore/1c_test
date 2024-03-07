@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96705f66-8da7-4945-8e20-b818717ba899">
+  <producedTypes>
+    <objectType typeId="fc1e725b-b12d-4866-ab34-6697f5e3a92b" valueTypeId="7862bda0-f7e3-4dfc-a0e4-c6a2e40aa918"/>
+    <refType typeId="946d0f58-a9e0-4170-a0dc-8e8f5b2a1a54" valueTypeId="14dc7970-807e-4ce3-90cc-bb527ab76565"/>
+    <selectionType typeId="6c09d1a4-edd4-4ad5-9682-5bafcc02b79f" valueTypeId="5ff20fac-b341-486a-90ca-50d37a574873"/>
+    <listType typeId="420ea9f5-8331-48fa-82cb-56a8a1564671" valueTypeId="54947db2-0b07-446d-8740-914bca7ab1f9"/>
+    <managerType typeId="09633eea-0226-43c3-84ce-191c2793f289" valueTypeId="e5a9d686-407e-4fc7-926f-a2a521a1cf16"/>
+  </producedTypes>
+  <name>Категории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории льгот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Категории.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Категории.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория льготы</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

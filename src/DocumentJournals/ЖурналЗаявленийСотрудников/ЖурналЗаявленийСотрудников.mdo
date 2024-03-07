@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91bfe742-fd32-4b0a-9166-34c3e6c05d50">
+  <producedTypes>
+    <selectionType typeId="9ddc1fa2-946b-416c-b425-7a2183a19781" valueTypeId="28ead7f4-2970-46a9-a462-2dd76dbd1e31"/>
+    <listType typeId="d41082c7-fbbe-4061-b512-8da566db2c92" valueTypeId="c5c6f5c8-0c9d-4d59-9bca-40f70698f9a4"/>
+    <managerType typeId="972f04c9-8df7-48a7-89b1-f86490120a51" valueTypeId="29daac5e-2189-4fa7-9373-b40db116c85e"/>
+  </producedTypes>
+  <name>ЖурналЗаявленийСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал заявлений сотрудников</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналЗаявленийСотрудников.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЖурналЗаявленийСотрудников</registeredDocuments>
+  <columns uuid="b75d976e-68c6-46a9-9d22-03e2bf2d51c8">
+    <name>ФИОСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО сотрудника</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийСотрудников.Attribute.Сотрудник</references>
+  </columns>
+  <columns uuid="f74f7ed7-b851-4b48-9120-715a316993ae">
+    <name>ТемаОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема обращения</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийСотрудников.Attribute.ТемаОбращения</references>
+  </columns>
+  <columns uuid="fbd65abf-affc-41b6-be66-a48050054033">
+    <name>ОтветственныйИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный исполнитель</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийСотрудников.Attribute.ОтветственныйИсполнитель</references>
+  </columns>
+  <columns uuid="1cf25ad1-ae19-4819-8ce9-cec74b64c2d0">
+    <name>СрокИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок исполнения</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийСотрудников.Attribute.СрокРассмотренияДо</references>
+  </columns>
+  <columns uuid="fca55cf1-9e54-488d-9875-603d86756be1">
+    <name>ОтметкаОбИсполнении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка об исполнении</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийСотрудников.Attribute.Ответ</references>
+  </columns>
+  <forms uuid="ad2ff2b3-ec46-46a0-a936-09268895783b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

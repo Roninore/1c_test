@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2cc0174-bd81-4afa-8578-feaec3d1255c">
+  <producedTypes>
+    <managerType typeId="fcad9c9d-18e0-4e17-b4bf-2b43631cf87b" valueTypeId="1ce12484-d714-4eae-8fc9-0587754f21e4"/>
+    <valueManagerType typeId="2146f2f8-e97c-4445-a36a-29a323378c37" valueTypeId="b4e4c393-2426-456d-9bdf-db40f0dac87a"/>
+    <valueKeyType typeId="264bfe24-76de-4f75-a34e-ea08355bee1e" valueTypeId="49e88928-62e3-4f90-9e5b-f5395ff3251f"/>
+  </producedTypes>
+  <name>ИНН_Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНН организации</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <format>
+    <key>ru</key>
+    <value>ЧГ=0</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ЧГ=0</value>
+  </editFormat>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

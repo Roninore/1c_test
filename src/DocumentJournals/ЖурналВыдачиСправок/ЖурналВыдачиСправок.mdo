@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b55a5f-2221-477f-aab7-7f45e387875d">
+  <producedTypes>
+    <selectionType typeId="38afb0fd-d2e7-4bc9-942b-9fda57fbc8da" valueTypeId="3c9e65e1-06f3-41ee-b5b6-ef397de778d5"/>
+    <listType typeId="527fb79e-f5d8-4ca7-b6bb-0620b642d72e" valueTypeId="61708ff7-818f-454e-8ed1-5d02ebab0e0f"/>
+    <managerType typeId="cf00bebe-7bc7-4b74-8c8b-18d7115e0713" valueTypeId="07a154f2-7a45-4a6a-a617-9b1944bba36c"/>
+  </producedTypes>
+  <name>ЖурналВыдачиСправок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал выдачи справок</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналВыдачиСправок.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.УниверсальнаяСправка</registeredDocuments>
+  <registeredDocuments>Document.ПФР_Налоговая_СоцВыплаты</registeredDocuments>
+  <registeredDocuments>Document.Трудоустройство</registeredDocuments>
+  <registeredDocuments>Document.НаправлениеТПМПК</registeredDocuments>
+  <registeredDocuments>Document.ОтсутствиеАкадемическойЗадолжности</registeredDocuments>
+  <registeredDocuments>Document.ПодтверждениеОПриемеВШколу</registeredDocuments>
+  <registeredDocuments>Document.Проездной</registeredDocuments>
+  <registeredDocuments>Document.УведомлениеОЗачислении</registeredDocuments>
+  <registeredDocuments>Document.СправкаВоенкомат</registeredDocuments>
+  <columns uuid="87126448-0b10-4bce-8f45-4499a6592abe">
+    <name>Обучающийся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучающийся</value>
+    </synonym>
+    <references>Document.УниверсальнаяСправка.Attribute.Обучающийся</references>
+    <references>Document.ПФР_Налоговая_СоцВыплаты.Attribute.Обучающийся</references>
+    <references>Document.Трудоустройство.Attribute.Обучающийся</references>
+    <references>Document.НаправлениеТПМПК.Attribute.Обучающийся</references>
+    <references>Document.ОтсутствиеАкадемическойЗадолжности.Attribute.Обучающийся</references>
+    <references>Document.ПодтверждениеОПриемеВШколу.Attribute.Обучающийся</references>
+    <references>Document.Проездной.Attribute.Обучающийся</references>
+    <references>Document.СправкаВоенкомат.Attribute.Обучающийся</references>
+    <references>Document.УведомлениеОЗачислении.Attribute.Обучающийся</references>
+  </columns>
+  <columns uuid="350f60c1-1c77-4f60-b65e-ca55626c9716">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <references>Document.УниверсальнаяСправка.Attribute.Класс</references>
+    <references>Document.ПФР_Налоговая_СоцВыплаты.Attribute.Класс</references>
+    <references>Document.Трудоустройство.Attribute.Класс</references>
+    <references>Document.НаправлениеТПМПК.Attribute.Класс</references>
+    <references>Document.ОтсутствиеАкадемическойЗадолжности.Attribute.Класс</references>
+    <references>Document.ПодтверждениеОПриемеВШколу.Attribute.Класс</references>
+    <references>Document.Проездной.Attribute.Класс</references>
+    <references>Document.СправкаВоенкомат.Attribute.Класс</references>
+    <references>Document.УведомлениеОЗачислении.Attribute.Класс</references>
+  </columns>
+  <forms uuid="f34fb41d-8ef3-4a0a-be66-91ce7bb2cae3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e26f5674-5299-4f05-a88a-6c1803b2faaa">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DocumentJournal>

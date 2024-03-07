@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9980d678-5b34-4201-b6fb-cd4f747d135e">
+  <producedTypes>
+    <objectType typeId="57138f81-b9e0-4c98-89ec-f64aa60823be" valueTypeId="77bed581-eaa4-45f3-8a6d-b6593eabc828"/>
+    <refType typeId="bcd40f89-49ea-4682-9f97-02ab3dbff164" valueTypeId="c2fde789-f647-4f08-990b-7996b289e78a"/>
+    <selectionType typeId="6ae6e1ef-e7e5-4e7c-af64-9148002a44ed" valueTypeId="273eb6d2-ca5b-4b61-8019-258347a82a95"/>
+    <listType typeId="ca033870-fcf5-4fe0-8396-79a6e7ee8b1e" valueTypeId="99aa1580-d3a6-4e5c-912f-2053fa317d5b"/>
+    <managerType typeId="330c5c04-7a75-40f6-b6ce-47888af4565a" valueTypeId="5bc789af-6be3-49c4-8244-fea40c2589a8"/>
+  </producedTypes>
+  <name>ЕГИССО_ДанныеКатегорий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка ЕГИССО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕГИССО_ДанныеКатегорий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕГИССО_ДанныеКатегорий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЕГИССО_ДанныеКатегорий.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="32646c3d-2956-4c9d-9b08-34ba04b1f0e4">
+    <name>LMSZID</name>
+    <synonym>
+      <key>ru</key>
+      <value>LMSZID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90a9b61a-cf51-4b7c-befa-87fedf2f173e">
+    <name>FormCode</name>
+    <synonym>
+      <key>ru</key>
+      <value>FormCode</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b33b17b8-025c-42a4-84b3-32869dc89d6f">
+    <name>amount</name>
+    <synonym>
+      <key>ru</key>
+      <value>amount</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ebded1e-ffec-481e-8e12-cd3123b26895">
+    <name>ТипЛьготы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип льготы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПереченьЛьгот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f35ba16-f0c7-4398-854f-d296bf6f40ba">
+    <name>measuryCode</name>
+    <synonym>
+      <key>ru</key>
+      <value>measuryCode</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7cb1f278-7fec-422d-830d-28ee40281ba0">
+    <producedTypes>
+      <objectType typeId="6ec64c75-f2f3-499a-8da6-ef8aa2a56da7" valueTypeId="ffe18c0e-ffb4-405b-b12d-3ef3b573795a"/>
+      <rowType typeId="c8e39874-8087-4370-86fc-618d8fc49984" valueTypeId="055fa726-6c79-480c-a13e-9b004e661770"/>
+    </producedTypes>
+    <name>categoryID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Category ID</value>
+    </synonym>
+    <attributes uuid="f61e9e97-e949-4d25-92bb-1ae078858540">
+      <name>Категория</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Категории</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d35c5895-670a-41af-85aa-ad4f98abc118">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="73929249-9f34-4c6b-b996-57fff3831ec6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

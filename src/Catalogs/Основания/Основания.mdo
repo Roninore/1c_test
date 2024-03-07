@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef143b86-945f-4192-8306-5ed0f4bce396">
+  <producedTypes>
+    <objectType typeId="1fa05d27-b32c-4207-b61e-c493b7f14c2c" valueTypeId="1056b27f-075d-4161-87c0-c0111379bb46"/>
+    <refType typeId="72a8a806-ec5b-4cad-9bd1-c9afd165d201" valueTypeId="e2a25e65-67b7-48ed-bdd3-d16f5c07769d"/>
+    <selectionType typeId="89dbc514-343b-4bf9-9c59-b45d7ec1cb10" valueTypeId="9720ec68-05a4-4c09-a106-688794f4a14d"/>
+    <listType typeId="6adefc9b-7cba-4918-83b4-5d66b4178daa" valueTypeId="b1bb4b73-ce65-441d-8cb8-a9d300b6c254"/>
+    <managerType typeId="479f6d6b-180e-469d-8fab-9d84718553a5" valueTypeId="67bb3188-b1b4-4085-9ea5-b50f830c154d"/>
+  </producedTypes>
+  <name>Основания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы-основания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Основания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Основания.StandardAttribute.Code</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Документы-основание</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

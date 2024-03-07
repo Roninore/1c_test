@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7714dafb-096a-4d70-941f-e1f3aeb9edd6">
+  <producedTypes>
+    <managerType typeId="bc09c8f5-46a6-4b63-bef3-d772b82643ac" valueTypeId="8a769425-19ee-4b07-90e3-7b3ef7e595d1"/>
+    <valueManagerType typeId="0a8ea376-3b94-4502-95f0-c1cd963f7475" valueTypeId="194e18f1-0322-4fbd-b766-15c01f2c72d6"/>
+    <valueKeyType typeId="e6ff0093-4717-4dd0-9008-d5746a406e90" valueTypeId="a5e9f218-fc40-41d6-a5d4-0bca3e68f536"/>
+  </producedTypes>
+  <name>РуководительОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководитель организации</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d79927-7565-425f-8ece-8160dc8d0715">
+  <producedTypes>
+    <objectType typeId="ecb2fc2d-babb-4020-92df-9d7e4dac34bb" valueTypeId="f7539757-a738-4751-a2e9-e9ac718cb461"/>
+    <refType typeId="4d83fdc6-a72a-43b1-ae75-7eb232700b3a" valueTypeId="262b0357-044e-4c7e-ba64-a6968c571903"/>
+    <selectionType typeId="50904813-3c3b-402f-accd-f3e87d8d3d16" valueTypeId="2154baab-5008-4804-8d64-903360ea96d7"/>
+    <listType typeId="75b8b3d7-a989-40a6-ab01-e68f3fcb916c" valueTypeId="084f9c17-2770-4a93-9455-a432ccccb128"/>
+    <managerType typeId="453d4521-1d6b-4eaa-891e-9ecdcc3c107d" valueTypeId="7e4f0718-a8c3-4ac7-99dd-d60147f3bf63"/>
+  </producedTypes>
+  <name>КомпенсацияОдежда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компенсация за приобритение одежды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КомпенсацияОдежда.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КомпенсацияОдежда.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВыплатыЛьготникам</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="63c7282c-058f-4e62-8530-2a2fa4fd5b51">
+    <name>МесяцВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц выплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e7e0164-ebaf-41d2-aaad-e0c347bfab31">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b135fdbf-2d58-47ab-99a0-37dde6ff7911">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="02615569-b14c-420d-8f35-7afb9a08c0e7">
+    <producedTypes>
+      <objectType typeId="f65181a3-15cf-409d-8a1c-001ce07dd752" valueTypeId="cc7067bc-a401-4544-aaf5-59677f496754"/>
+      <rowType typeId="5da9efee-25b7-42b0-a960-2918b840fef7" valueTypeId="cef6f4d9-5b94-410c-b42e-34aeb2e1e0a7"/>
+    </producedTypes>
+    <name>Обучающиеся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучающиеся</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="185eb045-9287-4154-839c-799a01f5401f">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Родители</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fd1f2103-0109-48ff-8e8a-fb4a95b53e30">
+      <name>Банк</name>
+      <synonym>
+        <key>ru</key>
+        <value>Банк</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Банки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b1250dd6-4f74-4ab6-94e6-8212379edc0e">
+      <name>РасчетныйСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расчетный счет</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ca96e90b-4272-4cc8-a56e-806fa98df006">
+      <name>Обучающийся</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обучающийся</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Обучающиеся</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="63ac0a57-f482-491b-8f65-f1095294739e">
+      <name>Класс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Класс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6267087-d21f-4ea7-bc60-bb21e9cee4e6">
+      <name>УдостоверениеМногодетныхНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удостоверение многодетных номер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4b2f0a5-d546-45cf-89e2-46c61a8ad975">
+      <name>СрокДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок действия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a14d27f-d5db-4db2-90e4-fa53b4002fde">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="fb902677-fea3-4eca-8c24-e3ab95993a23">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.КомпенсацияОдежда</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+</mdclass:Document>

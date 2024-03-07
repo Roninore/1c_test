@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="963fc795-4be9-4cdb-ad1f-f1f95e768b4f">
+  <producedTypes>
+    <refType typeId="805a9c4a-475e-485b-832e-135cba7d06ad" valueTypeId="3747aff7-0472-409d-ae46-52e2c3e94dc2"/>
+    <listType typeId="2720aa17-372f-4cb4-9717-054d9cc303c5" valueTypeId="773f6b56-7e4f-43dd-9ccb-d80fa7a9e4f5"/>
+    <managerType typeId="b556841d-905a-40fd-ab40-a95682b68e3d" valueTypeId="1b0d77b9-a00e-4205-b910-888cf77648c1"/>
+  </producedTypes>
+  <name>ПричиныТПМПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины направления на ТПМПК</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a25e97c-a797-42f3-980d-d5dc728715f2">
+    <name>НизкиеРезультаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкие результаты учебной деятельности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a60eb228-da87-4d4d-ba8e-61b36a3c46c1">
+    <name>ПродлениеИнвалидности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продление инвалидности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82af8573-3085-4a32-9046-403538303520">
+    <name>ГИА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определение необходимости создания условий при проведении ГИА</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

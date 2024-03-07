@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a73af307-179d-4a29-b16c-91550fe0fe69">
+  <producedTypes>
+    <objectType typeId="b1a64b58-59b0-4a45-afc4-1eb67f7599ad" valueTypeId="e1083aa8-c1d5-4e35-b26f-809aa02e751c"/>
+    <refType typeId="5dd310ca-d434-4692-9c9e-2a05781e1250" valueTypeId="eb73d17e-0364-4efc-be6b-075741e71e8c"/>
+    <selectionType typeId="fa739d23-19d0-4351-b46c-d2927de791a7" valueTypeId="68dfe73b-66d5-4e60-93ef-d002c3798b7a"/>
+    <listType typeId="99e6c883-46df-4425-bcc5-e84dd5e2e100" valueTypeId="0a7ab269-b6f1-46d8-b957-13b4d28d896d"/>
+    <managerType typeId="4faa170d-7cf6-49bc-bedf-88b155699c58" valueTypeId="9eaee749-cd22-432e-a61c-e2cb5e457f02"/>
+  </producedTypes>
+  <name>Банки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Банки.StandardAttribute.Code</inputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Банк</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

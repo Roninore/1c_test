@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="116484d8-c78e-4288-b41b-322096b1b5ad">
+  <producedTypes>
+    <selectionType typeId="22b10fdc-f9c0-4ad3-bbed-50749c272396" valueTypeId="e80e890e-b00b-4b9c-9897-5f7cc63e92ed"/>
+    <listType typeId="2a3fa480-0965-4be7-8288-ea278f500dc8" valueTypeId="2af0b254-f511-486a-b44a-eb1134f00301"/>
+    <managerType typeId="7a7c71e7-2461-416b-a14a-49c8483bee37" valueTypeId="4eb9d09e-c567-4a76-8214-e678d0fe759d"/>
+  </producedTypes>
+  <name>Телефонограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телефонограммы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Телефонограммы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.Телефонограммы</registeredDocuments>
+  <columns uuid="35dab411-17f8-4a63-a89e-04f9d5a14ca1">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <references>Document.Телефонограммы.Attribute.Отправитель</references>
+  </columns>
+  <columns uuid="51e7994e-1eed-4807-ac17-3d25f1ec4424">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <references>Document.Телефонограммы.Attribute.Исполнитель</references>
+  </columns>
+  <forms uuid="371eda34-e024-4b38-9e2f-4a9ce0b2968a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1550fbd6-cc7a-4d41-a123-90961e45fe3b">
+  <producedTypes>
+    <selectionType typeId="cd9a4374-584e-4b12-b117-e23e64ab172b" valueTypeId="b18c699e-f5ed-4fd1-bd4a-dfa0a56d8050"/>
+    <listType typeId="5a487d49-2d31-4430-a7af-3f5de21fd7aa" valueTypeId="1072f404-bc7c-4e91-a0c8-57d374730f57"/>
+    <managerType typeId="45431494-8a19-407e-a4ce-fd5e6771b4ed" valueTypeId="f651d3e4-be4d-4d10-834a-ba6e24f38a8c"/>
+  </producedTypes>
+  <name>ЖурналВходящихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал входящих документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналВходящихДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЖурналВходящихДокументов</registeredDocuments>
+  <columns uuid="2ac364da-e92f-42b2-a77e-5bc9d249616c">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <references>Document.ЖурналВходящихДокументов.Attribute.Отправитель</references>
+  </columns>
+  <columns uuid="147e3e75-d080-4291-9402-74010645142d">
+    <name>ТемаСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема сообщения</value>
+    </synonym>
+    <references>Document.ЖурналВходящихДокументов.Attribute.ТемаСообщения</references>
+  </columns>
+  <columns uuid="edca7473-d1d0-49a8-b4b4-3e023b18a0d6">
+    <name>СрокИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок исполнения</value>
+    </synonym>
+    <references>Document.ЖурналВходящихДокументов.Attribute.СрокРассмотренияДо</references>
+  </columns>
+  <columns uuid="ebccff25-04a4-4d88-83bd-17cd750ab176">
+    <name>ОтветственныйИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный исполнитель</value>
+    </synonym>
+    <references>Document.ЖурналВходящихДокументов.Attribute.ОтветственныйИсполнитель</references>
+  </columns>
+  <columns uuid="82be09be-742b-434c-ac49-7a40c1b579ee">
+    <name>ОтметкаОбИсполнении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка об исполнении</value>
+    </synonym>
+    <references>Document.ЖурналВходящихДокументов.Attribute.Ответ</references>
+  </columns>
+  <forms uuid="df25f1af-d006-47f4-9525-c60aab4948d7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

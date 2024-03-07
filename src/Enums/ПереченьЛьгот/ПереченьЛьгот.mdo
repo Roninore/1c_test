@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94a34f3c-9b5b-48e0-ace6-4bdd7e722109">
+  <producedTypes>
+    <refType typeId="71f87559-d39b-4ba8-9e22-e65ae6a9f93b" valueTypeId="6c32cf70-9bc7-45e0-adf4-edd4a910ed39"/>
+    <listType typeId="6a25be83-fbdf-405c-9337-39e0ca7cde54" valueTypeId="838a93fe-e01d-40c9-ae63-2a509fd7a7dc"/>
+    <managerType typeId="e722ccf6-5306-4cfd-89c0-ac04328be859" valueTypeId="26d2d11a-3f6d-40ca-9a6e-24ad0ce7a393"/>
+  </producedTypes>
+  <name>ПереченьЛьгот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечень льгот</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="99f08ea4-9a59-4af4-8531-0e428428cc5a">
+    <name>ЕдиноразовоеПитание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единоразовое питание (завтрак)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffecc7a2-0e45-4517-9c56-9e72e60cf3b3">
+    <name>ДвухразовоеПитание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двухразовое питание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a90c823b-b67e-45ae-aede-4ea09a93f652">
+    <name>КомпенсацияЗаПроезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компенсация за проезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e8fc630-bfbc-4880-a557-9d3f7139d7c6">
+    <name>КомпенсацияЗаОдежду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компенсация за одежду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7e60271-b76d-4a08-bef3-cd7a41a9b38e">
+    <name>СкидкаНаПлатныеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка на платные услуги</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

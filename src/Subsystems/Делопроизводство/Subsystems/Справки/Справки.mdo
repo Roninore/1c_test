@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a6cba99-5b05-4a66-9d09-71d07fd1ed6d">
+  <name>Справки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DocumentJournal.ЖурналВыдачиСправок</content>
+  <parentSubsystem>Subsystem.Делопроизводство</parentSubsystem>
+</mdclass:Subsystem>

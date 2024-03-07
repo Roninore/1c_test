@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8de40d23-217a-4427-8652-7c08126291c4">
+  <producedTypes>
+    <objectType typeId="234f613d-71dd-4adf-85a6-f9c577b29679" valueTypeId="7cb0aa37-9496-452c-a69b-27a319bebf2f"/>
+    <refType typeId="eb89d3d9-ccab-4ba5-bac7-0391050d80ec" valueTypeId="5b2ca568-c0f8-4c66-ab48-152bf6626e16"/>
+    <selectionType typeId="7f9fe66a-4bf0-406d-b7c2-bcf0d07b90ee" valueTypeId="2968448f-ff85-4a0a-ac6e-842ec6336684"/>
+    <listType typeId="5ec63fae-906f-4d55-8926-cb0b06d40eee" valueTypeId="4d3fe58a-75c5-43ac-9ebb-ca0274059d33"/>
+    <managerType typeId="849592df-a5cb-4278-b7ed-90d2d90e4fed" valueTypeId="753ce3b9-4796-422e-866d-596471a0f600"/>
+  </producedTypes>
+  <name>УчебныеГода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные года</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчебныеГода.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УчебныеГода.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учебный год</value>
+  </objectPresentation>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчебныеГода.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УчебныеГода.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="13c42e0d-467c-4747-8a22-9dfeb83b0ae7">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3069a04-a61c-418f-aaac-d3052162ddb9">
+    <name>Окончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2be53dd8-e734-49eb-8460-1c3f4c08e07a">
+    <producedTypes>
+      <objectType typeId="89ab063d-acf2-4cbd-8efb-686f32e63da3" valueTypeId="7f86452b-7f69-4dcd-8a12-192f54009a27"/>
+      <rowType typeId="2107b858-341d-4d1b-8339-20c694c8661b" valueTypeId="dbac1802-874b-4a22-9788-70957fcca4f2"/>
+    </producedTypes>
+    <name>КлассноеРуководство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классное руководство</value>
+    </synonym>
+    <attributes uuid="8b69b7cc-7a7f-4ac2-af5b-e41836d2368a">
+      <name>Класс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Класс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>Use</quickChoice>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="edae23bf-f668-48a9-9bce-50dd670e5a2f">
+      <name>КлассныйРуководитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Классный руководитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="52ad75e6-9bf8-4383-8c9f-ef3cbc505f66">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="58831e13-a91c-4086-9b34-5386af513171">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

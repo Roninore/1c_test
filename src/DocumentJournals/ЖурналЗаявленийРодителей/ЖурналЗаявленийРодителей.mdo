@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dd77041-2873-4e40-8873-3d469107f17c">
+  <producedTypes>
+    <selectionType typeId="56129f7b-6a7a-451c-a355-0b69d4704744" valueTypeId="8b93d937-d4e1-4a3e-af4d-43d43f9b978a"/>
+    <listType typeId="a511c779-fe03-4f99-864a-e5b4919771d7" valueTypeId="920515d9-7621-4a18-b950-aa678859176a"/>
+    <managerType typeId="01a750f1-ae29-4a0d-b130-985dcd5719e7" valueTypeId="f24d5900-472e-4f36-b189-37d09c140339"/>
+  </producedTypes>
+  <name>ЖурналЗаявленийРодителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал заявлений родителей</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналЗаявленийРодителей.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЖурналЗаявленийРодителей</registeredDocuments>
+  <columns uuid="47c4fa6d-9c4f-45d1-bbd8-eb8e59196f2a">
+    <name>ФИОЗаявителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО заявителя</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийРодителей.Attribute.Родитель</references>
+  </columns>
+  <columns uuid="2b572044-7a0d-4021-bba0-068ae304ccfb">
+    <name>ТемаОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема обращения</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийРодителей.Attribute.ТемаОбращения</references>
+  </columns>
+  <columns uuid="bfe045d2-3c5c-4a26-b1b9-9654876dc8dd">
+    <name>ОтветственныйИсполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный исполнитель</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийРодителей.Attribute.ОтветственныйИсполнитель</references>
+  </columns>
+  <columns uuid="f0503f07-19c9-4726-8f35-7401cb158f2c">
+    <name>СрокИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок исполнения</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийРодителей.Attribute.СрокРассмотренияДо</references>
+  </columns>
+  <columns uuid="1982a298-af6c-4d2c-bc91-57f12f068c27">
+    <name>ОтметкаОбИсполнении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка об исполнении</value>
+    </synonym>
+    <references>Document.ЖурналЗаявленийРодителей.Attribute.Ответ</references>
+  </columns>
+  <forms uuid="90b6df4d-7bd0-4d7c-885f-923c278930aa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

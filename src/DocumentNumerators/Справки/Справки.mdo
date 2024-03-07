@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00a3b91-a741-4174-bcf2-f7061d0eb141">
+  <name>Справки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справки</value>
+  </synonym>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

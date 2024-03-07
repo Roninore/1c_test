@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a89ccad-35d9-423a-b380-828ccfbd8a1b">
+  <producedTypes>
+    <objectType typeId="5aa5798b-3904-40fa-9f78-255d2939c458" valueTypeId="6f5befbf-53a3-4b1d-8ce3-f519d90217a1"/>
+    <refType typeId="c69ba496-7f9e-4d07-a470-9063a2cfdb8c" valueTypeId="f9b78aa1-1ab9-48ab-adba-7cc0fabb92ec"/>
+    <selectionType typeId="7c36d18f-7f35-4b1b-aab3-9ca808e90839" valueTypeId="3a2b4eae-81f3-4b4e-b74f-47b4e28609f9"/>
+    <listType typeId="7e362b69-a3e3-4f13-a003-8f8754b1c85b" valueTypeId="97b97c25-c6be-40dc-b1fa-30a3dae35222"/>
+    <managerType typeId="8dc6f3f6-fc3d-4552-affc-0e9f4049a2c0" valueTypeId="9257d96f-ef54-41f9-a366-75fd2c6b190f"/>
+  </producedTypes>
+  <name>ПрограммыДополнительногоОбразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрограммыДополнительногоОбразования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПрограммыДополнительногоОбразования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрограммыДополнительногоОбразования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПрограммыДополнительногоОбразования.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="df2ce58f-3b54-4a36-a738-79b28dcd4a74">
+    <name>Сокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6da5502-c755-423f-9f1f-87ef72a8f23c">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93ba6790-4811-4151-9ad8-689415440be7">
+    <name>Направленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направленность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленностьПрограмм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="24684568-0fa6-403e-b7c7-6b6ca7a7d107">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="608352b8-f4e7-4ce5-998c-34a8dcb6df7b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

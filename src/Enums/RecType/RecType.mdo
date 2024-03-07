@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58b1ec65-8d76-4ec0-bee1-336386c67f5c">
+  <producedTypes>
+    <refType typeId="ec517c50-2781-48fa-ac6c-71c10d0f182c" valueTypeId="5eef2621-de37-42de-8fe9-9952e5ffc3e5"/>
+    <listType typeId="6070a850-3633-4745-8483-579a3281b533" valueTypeId="37835a51-d0e8-4801-88d5-309820430748"/>
+    <managerType typeId="ffa838d2-8c08-4c80-8037-bf347b14ea81" valueTypeId="cfecec9a-1390-41c8-a537-1cf2907151a7"/>
+  </producedTypes>
+  <name>RecType</name>
+  <synonym>
+    <key>ru</key>
+    <value>RecType</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="001eec06-c0fb-4698-80af-028e0bfc2959">
+    <name>Fact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fact</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c5639f0-94e7-4062-8e5f-e740493444ad">
+    <name>Reason</name>
+    <synonym>
+      <key>ru</key>
+      <value>Reason</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

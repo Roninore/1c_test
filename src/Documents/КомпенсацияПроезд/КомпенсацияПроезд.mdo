@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb2c3d0c-1575-49be-9fad-20e2379a9537">
+  <producedTypes>
+    <objectType typeId="9fa2dd38-2ee8-4a83-b2c6-2a84515aefb1" valueTypeId="cb05bcc1-08b3-42b4-8af8-f6d53763a9fa"/>
+    <refType typeId="cf71c8dc-52ee-4119-9b3f-277942e01e65" valueTypeId="d258e298-ed1b-4e36-bd44-abab3d370b6d"/>
+    <selectionType typeId="6fc41aac-335c-4b84-a6bd-68b6afbded48" valueTypeId="c9b64af1-da13-4e5f-870f-a49b0567aaeb"/>
+    <listType typeId="f10c8715-0feb-4cd8-8be3-88899bb9cace" valueTypeId="ef66f81c-e364-4601-b4a3-129cbac3fc9f"/>
+    <managerType typeId="33eccf5a-5bd8-483e-ba78-35c512e69dcc" valueTypeId="ec18c40d-3fed-493d-a873-1e8af0622173"/>
+  </producedTypes>
+  <name>КомпенсацияПроезд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ежемесячная компенсация за проезд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КомпенсацияПроезд.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КомпенсацияПроезд.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВыплатыЛьготникам</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4052988f-0606-4d83-b5f1-8098b02020bc">
+    <name>МесяцВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц выплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce324f88-8ceb-47b6-93b6-e9eac9c1bf9e">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="99629251-69f1-4e9d-9f9f-64c1b0d469a0">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d8693837-25df-4462-a41d-cbe5b92932a8">
+    <producedTypes>
+      <objectType typeId="7712ca2c-f490-418f-ac2a-2ef52caa8e63" valueTypeId="d1879810-1e07-41c5-b67c-9fa14056e689"/>
+      <rowType typeId="15b0d8f4-854b-4d9e-a51f-4a4b3eb5352b" valueTypeId="6f01eb47-e4e2-4960-a13b-83ca56d1d33f"/>
+    </producedTypes>
+    <name>Обучающиеся</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучающиеся</value>
+    </synonym>
+    <attributes uuid="6791c71c-e32e-4146-b7ab-1e2dbfcb0bf5">
+      <name>Родитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Родители</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ac555b2f-0f9f-4dc3-8d79-d0805700e99c">
+      <name>Банк</name>
+      <synonym>
+        <key>ru</key>
+        <value>Банк</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Банки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a048618-58fa-454c-91c1-60b5805bc137">
+      <name>РасчетныйСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расчетный счет</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3dc5f849-c43b-481e-9311-6147593ff80d">
+      <name>Обучающийся</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обучающийся</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Обучающиеся</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27b99e0d-0581-4a6b-b82f-10774c56d4de">
+      <name>Класс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Класс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="20cb150d-53f9-4e5b-8eb5-2e338ad35a72">
+      <name>УдостоверениеМногодетныхНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удостоверение многодетных номер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧВН=; ЧГ=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧВН=; ЧГ=0</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c65bd86-f9fa-403e-bb6c-447de7ca68ee">
+      <name>СрокДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок действия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="3d9f1737-39e8-41dd-9899-d74c9044a148">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.КомпенсацияПроезд</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
+</mdclass:Document>

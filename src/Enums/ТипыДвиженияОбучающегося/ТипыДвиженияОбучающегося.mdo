@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8e2d5c9-e6b1-44a3-ab9a-4cb9d094a120">
+  <producedTypes>
+    <refType typeId="534281e6-64d2-4d72-b9a4-b51f60c0f2ed" valueTypeId="88680053-b8f2-42a5-9bdd-b86cc8e72945"/>
+    <listType typeId="26e9cc23-7c5e-46bd-bb52-9b879fc9c1d0" valueTypeId="a219e52e-2ff8-4a0f-9951-d68d6bce270a"/>
+    <managerType typeId="2cce2e83-f1b1-404b-a1c2-74be3cd9f835" valueTypeId="71dbf524-4f36-4888-89e3-0afd7cdbd68f"/>
+  </producedTypes>
+  <name>ТипыДвиженияОбучающегося</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы движения обучающегося</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca9be67c-2600-4002-8883-1dee35394e8a">
+    <name>НовыйУчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый учебный год</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb76f01c-7533-4c8c-8d3c-300a47eae343">
+    <name>ПереходМеждуКлассами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход между классами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a0a6f56-1679-462e-acd0-184107ebcc35">
+    <name>ПриемНаОбучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на обучение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f0fb667-c6b9-4004-8c81-edb310402e19">
+    <name>Отчисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчисление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="889cafbf-a8a5-4fd2-a2ed-73060fd77a97">
+    <name>ОкончаниеОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание обучения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
